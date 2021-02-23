@@ -1,26 +1,294 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>Adobe Document Services PDF Embed API Sample</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>proctoring</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+
+        .s1 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+
+        .s2 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        h1 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        .s4 {
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: underline;
+            font-size: 11pt;
+        }
+
+        p {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+            margin: 0pt;
+        }
+
+        .s5 {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 1pt;
+        }
+
+        #sig-canvas {
+            border: 2px dotted #CCCCCC;
+            border-radius: 15px;
+            cursor: crosshair;
+        }
+    </style>
 </head>
 
-<body style="margin: 0px">
-    <div id="adobe-dc-view"></div>
-    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-    <script type="text/javascript">
-        document.addEventListener("adobe_dc_view_sdk.ready", function () {
-            var adobeDCView = new AdobeDC.View({ clientId: "2b04cb01f3cc447a9120b2580b9ee13f", divId: "adobe-dc-view" });
-            adobeDCView.previewFile(
-                {
-                    content: { location: { url: "https://BlueRidgeOperations.github.io/proctoring.pdf" } },
-                    metaData: { fileName: "Proctor Agreement.pdf" }
-                },{ "showLeftHandPanel": true, "showPageControls": true, "enableFormFilling": true, "showAnnotationTools": true });
-        });
-    </script>
+<body>
+    <p style="padding-left: 224pt;text-indent: 0pt;text-align: left;"><span><img width="133" height="87" alt="image"
+                src="proctoring_files/Image_001.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p class="s1" style="padding-top: 4pt;padding-left: 123pt;text-indent: 0pt;text-align: center;">Proctoring Agreement
+        for A-G Coursework</p>
+    <p class="s2" style="padding-top: 2pt;padding-left: 122pt;text-indent: 0pt;text-align: center;">To be signed by the
+        Student&#39;s Learning Coach</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h1 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">HST’s please file this signed form in Pathways by
+        the end of LP1.</h1>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h1 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Student Name:<u>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </u> Student SSID: <span
+            class="s4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;</span></h1>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 2pt;padding-left: 5pt;text-indent: 0pt;line-height: 114%;text-align: left;">Per UCOP, major
+        assessments (i.e., unit tests, final exams) for UC approved courses shall be proctored. An approved proctor is
+        an educational partner, such as the parent, guardian, tutor, learning coach, vendor instructor, or HST. One
+        signed agreement is necessary per student per school year; an agreement is not needed per course. All highschool
+        students are completing UC approved A-G core courses (history, English, math, science, some world language and
+        VAPA). Therefore, all high school students, no matter the curriculum used for learning, will have this signed
+        agreement on file in Pathways.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;line-height: 114%;text-align: left;">The learning coach will verify
+        their student’s major assessments are proctored by an educational partner. The learning coach is the person who
+        signed the master agreement (MA) and is the person responsible for knowing their student has been supervised
+        during the time they are completing their major assessments required of the course. The learning coach will
+        verify that the student was held to academic integrity and accessed only approved notes, information, and other
+        resources during the time in their exam.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;line-height: 118%;text-align: left;">By signing this agreement, you are
+        confirming that your student’s major assessments are proctored by an educational partner.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p class="s5" style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="279"
+                height="1" alt="image" src="proctoring_files/Image_002.png" /></span> <span><img width="160" height="1"
+                alt="image" src="proctoring_files/Image_003.png" /></span></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Student’s Learning Coach Signature Date</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="502" height="1"
+                alt="image" src="proctoring_files/Image_004.png" /></span></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Printed Name and Relationship to Student</p>
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>E-Signature</h1>
+                <p>Sign in the canvas below and save your signature as an image!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <canvas id="sig-canvas" width="620" height="160">
+                    Get a better browser, bro.
+                </canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-primary" id="sig-submitBtn">Submit Signature</button>
+                <button class="btn btn-default" id="sig-clearBtn">Clear Signature</button>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <textarea id="sig-dataUrl" class="form-control"
+                    rows="5">Data URL for your signature will go here!</textarea>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <img id="sig-image" src="" alt="Your signature will go here!" />
+            </div>
+        </div>
+    </div>
 </body>
+(function() {
+window.requestAnimFrame = (function(callback) {
+return window.requestAnimationFrame ||
+window.webkitRequestAnimationFrame ||
+window.mozRequestAnimationFrame ||
+window.oRequestAnimationFrame ||
+window.msRequestAnimaitonFrame ||
+function(callback) {
+window.setTimeout(callback, 1000 / 60);
+};
+})();
+
+var canvas = document.getElementById("sig-canvas");
+var ctx = canvas.getContext("2d");
+ctx.strokeStyle = "#222222";
+ctx.lineWidth = 4;
+
+var drawing = false;
+var mousePos = {
+x: 0,
+y: 0
+};
+var lastPos = mousePos;
+
+canvas.addEventListener("mousedown", function(e) {
+drawing = true;
+lastPos = getMousePos(canvas, e);
+}, false);
+
+canvas.addEventListener("mouseup", function(e) {
+drawing = false;
+}, false);
+
+canvas.addEventListener("mousemove", function(e) {
+mousePos = getMousePos(canvas, e);
+}, false);
+
+// Add touch event support for mobile
+canvas.addEventListener("touchstart", function(e) {
+
+}, false);
+
+canvas.addEventListener("touchmove", function(e) {
+var touch = e.touches[0];
+var me = new MouseEvent("mousemove", {
+clientX: touch.clientX,
+clientY: touch.clientY
+});
+canvas.dispatchEvent(me);
+}, false);
+
+canvas.addEventListener("touchstart", function(e) {
+mousePos = getTouchPos(canvas, e);
+var touch = e.touches[0];
+var me = new MouseEvent("mousedown", {
+clientX: touch.clientX,
+clientY: touch.clientY
+});
+canvas.dispatchEvent(me);
+}, false);
+
+canvas.addEventListener("touchend", function(e) {
+var me = new MouseEvent("mouseup", {});
+canvas.dispatchEvent(me);
+}, false);
+
+function getMousePos(canvasDom, mouseEvent) {
+var rect = canvasDom.getBoundingClientRect();
+return {
+x: mouseEvent.clientX - rect.left,
+y: mouseEvent.clientY - rect.top
+}
+}
+
+function getTouchPos(canvasDom, touchEvent) {
+var rect = canvasDom.getBoundingClientRect();
+return {
+x: touchEvent.touches[0].clientX - rect.left,
+y: touchEvent.touches[0].clientY - rect.top
+}
+}
+
+function renderCanvas() {
+if (drawing) {
+ctx.moveTo(lastPos.x, lastPos.y);
+ctx.lineTo(mousePos.x, mousePos.y);
+ctx.stroke();
+lastPos = mousePos;
+}
+}
+
+// Prevent scrolling when touching the canvas
+document.body.addEventListener("touchstart", function(e) {
+if (e.target == canvas) {
+e.preventDefault();
+}
+}, false);
+document.body.addEventListener("touchend", function(e) {
+if (e.target == canvas) {
+e.preventDefault();
+}
+}, false);
+document.body.addEventListener("touchmove", function(e) {
+if (e.target == canvas) {
+e.preventDefault();
+}
+}, false);
+
+(function drawLoop() {
+requestAnimFrame(drawLoop);
+renderCanvas();
+})();
+
+function clearCanvas() {
+canvas.width = canvas.width;
+}
+
+// Set up the UI
+var sigText = document.getElementById("sig-dataUrl");
+var sigImage = document.getElementById("sig-image");
+var clearBtn = document.getElementById("sig-clearBtn");
+var submitBtn = document.getElementById("sig-submitBtn");
+clearBtn.addEventListener("click", function(e) {
+clearCanvas();
+sigText.innerHTML = "Data URL for your signature will go here!";
+sigImage.setAttribute("src", "");
+}, false);
+submitBtn.addEventListener("click", function(e) {
+var dataUrl = canvas.toDataURL();
+sigText.innerHTML = dataUrl;
+sigImage.setAttribute("src", dataUrl);
+}, false);
+
+})();
 
 </html>
