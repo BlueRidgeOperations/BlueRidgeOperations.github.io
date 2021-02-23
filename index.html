@@ -121,7 +121,7 @@ body {
 </head>
 
 <body>
-    <div id="pdf">
+    <div id="pa">
     <p style="padding-left: 224pt;text-indent: 0pt;text-align: left;"><span><img width="133" height="87" alt="image"
                 src="proctoring_files/Image_001.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -171,13 +171,13 @@ body {
         <h2>with mouse or touch</h2>
     
         <canvas id="signature-pad" width="400" height="200"></canvas>
-    
+    </div>
         <div>
             <button id="save">Save</button>
             <button id="clear">Clear</button>
-            <button onclick="saveDiv('pdf','Title')">Save to PDF</button>
+            <button id="cmd">Save to PDF</button>
     </section>
-    </div>
+   
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
@@ -636,10 +636,20 @@ body {
     });
 </script>
 <script>
-   var doc = new jsPDF();
-     function saveDiv(divId, title) {
-            doc.fromHTML(`<html><head><title>${title}</title></head><body>` + document.getElementById(divId).innerHTML + `</body></html>`);
-            doc.save('div.pdf');
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+        '#editor': function (element, renderer) {
+            return true;
         }
+    };
+
+    $('#cmd').click(function () {
+        doc.fromHTML($('#pa').html(), 15, 15, {
+            'width': 170,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Proctor Agreement.pdf');
+    });
+
 </script>
 </html>
