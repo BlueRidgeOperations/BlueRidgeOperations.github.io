@@ -170,26 +170,17 @@ body {
     <p style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="502" height="1"
                 alt="image" src="proctoring_files/Image_004.png" /></span></p>
     <p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Printed Name and Relationship to Student</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>E-Signature</h1>
-                <p>Sign in the canvas below and save your signature as an image!</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <canvas id="sig-canvas" width="620" height="160">
-                    Please sign
-                </canvas>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <button class="btn btn-primary" id="sig-submitBtn">Submit Signature</button>
-                <button class="btn btn-default" id="sig-clearBtn">Clear Signature</button>
-            </div>
-        </div>
+<section class="signature-component">
+    <h1>Draw Signature</h1>
+    <h2>with mouse or touch</h2>
+
+    <canvas id="signature-pad" width="400" height="200"></canvas>
+
+    <div>
+        <button id="save">Save</button>
+        <button id="clear">Clear</button>
+        <button id="cmd">Download</button>
+    </div></section> </div>
     <script>
         var doc = new jsPDF();
         var specialElementHandlers = {
