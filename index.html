@@ -121,6 +121,7 @@ body {
 </head>
 
 <body>
+    <div id="pdf">
     <p style="padding-left: 224pt;text-indent: 0pt;text-align: left;"><span><img width="133" height="87" alt="image"
                 src="proctoring_files/Image_001.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -174,17 +175,9 @@ body {
         <div>
             <button id="save">Save</button>
             <button id="clear">Clear</button>
-            <button id="showPointsToggle">Show points?</button>
-        </div>
-    
-        <p>
-            <br />
-            <a href="https://codepen.io/kunukn/pen/bgjzpb/" target="_blank">Throttling without lag example here</a><br />
-            <br />
-            <a href="https://github.com/szimek/signature_pad" target="_blank">Signature Pad</a> with custom Simplifying and
-            Throttling
-        </p>
+            <button onclick="saveDiv('pdf','Title')">Save to PDF</button>
     </section>
+    </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script>
@@ -640,5 +633,49 @@ body {
         signaturePad.showPointsToggle();
         showPointsToggle.classList.toggle('toggle');
     });
+</script>
+<script>
+    var doc = new jsPDF();
+    
+    function saveDiv(divId, title) {
+    doc.fromHTML(`<html>
+    
+    <head>
+        <title>${title}</title>
+    </head>
+    
+    <body>` + document.getElementById(divId).innerHTML + `</body>
+    
+    </html>`);
+    doc.save('div.pdf');
+    }
+    
+    function printDiv(divId,
+    title) {
+    
+    let mywindow = window.open('', 'PRINT', 'height=650,width=900,top=100,left=150');
+    
+    mywindow.document.write(`<html>
+    
+    <head>
+        <title>${title}</title>`);
+        mywindow.document.write('
+    </head>
+    
+    <body>');
+        mywindow.document.write(document.getElementById(divId).innerHTML);
+        mywindow.document.write('</body>
+    
+    </html>');
+    
+    mywindow.document.close(); // necessary for IE >= 10
+    mywindow.focus(); // necessary for IE >= 10*/
+    
+    mywindow.print();
+    mywindow.close();
+    
+    return true;
+    }
+
 </script>
 </html>
