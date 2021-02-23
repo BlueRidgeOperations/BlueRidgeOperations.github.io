@@ -181,6 +181,23 @@ body {
             <button id="clear">Clear</button>
             <button id="cmd">Save to PDF</button>
     </section>
+    <script>
+        var doc = new jsPDF();
+        var specialElementHandlers = {
+            '#editor': function (element, renderer) {
+                return true;
+            }
+        };
+
+        $('#cmd').click(function () {
+            doc.fromHTML($('#pa').html(), 15, 15, {
+                'width': 170,
+                'elementHandlers': specialElementHandlers
+            });
+            doc.save('Proctor Agreement.pdf');
+        });
+
+    </script>
    
 </body>
 
@@ -637,22 +654,5 @@ body {
         signaturePad.showPointsToggle();
         showPointsToggle.classList.toggle('toggle');
     });
-</script>
-<script>
-    var doc = new jsPDF();
-    var specialElementHandlers = {
-        '#editor': function (element, renderer) {
-            return true;
-        }
-    };
-
-    $('#cmd').click(function () {
-        doc.fromHTML($('#pa').html(), 15, 15, {
-            'width': 170,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('Proctor Agreement.pdf');
-    });
-
 </script>
 </html>
