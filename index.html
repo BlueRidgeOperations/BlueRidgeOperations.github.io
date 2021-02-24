@@ -3,6 +3,9 @@
 
 <head>
     <title>CSS Template</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -11,9 +14,17 @@
         }
 
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #141D34;
+            font-family: 'Montserrat', sans-serif;
+            background-image: url('/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         }
+
+        h1 {
+           font-family: 'Montserrat', sans-serif;
+           font-weight:500;
+        }
+
 
         /* Style the header */
         .header {
@@ -22,6 +33,9 @@
             text-align: center;
             font-size: 35px;
             max-width: 100%;
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+            margin-top: 0;
         }
 
         /* Container for flexboxes */
@@ -29,6 +43,8 @@
             display: -webkit-flex;
             display: flex;
             max-width: 100%;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
         }
 
         /* Create three equal columns that sits next to each other */
@@ -54,6 +70,8 @@
             .row {
                 -webkit-flex-direction: column;
                 flex-direction: column;
+                font-family: 'Montserrat', sans-serif;
+                font-weight:400;
             }
         }
         .content {
@@ -63,28 +81,41 @@
             height: 100%;
             width: 90%;
             background-color: #f1f1f1;
+            opacity: .95;
             Margin: 0 auto;
-            padding-top: 3%;
+            padding-top: 0%;
             padding-left: 5%;
             padding-right: 5%;
             padding-bottom: 3%;
         }
+        .center {
+            max-width:100%;
+            height:auto;
+            width: auto;
+            margin: auto;      
+        }
 
+        .centered-image-container {
+            text-align: center;
+        }
+        
     </style>
 </head>
 
 <body>
+    <div class="centered-image-container">
+    <img src="/logo.png" class="center" alt="Logo" />
+    </div>
+    <br><br>
     <div class="content">
     <div class="header">
-        <img src="/logo.png" style="height:auto; max-width=100%;" alt="Logo" /><br>
-        <h1>Blue Ridge Academy</h1>
-        <h2>Enrollment Documents</h2>
+        <h1>Enrollment Documents</h1>
     </div>
 
     <div class="row">
-        <div class="column" style="background-color:#aaa;">Column</div>
-        <div class="column" style="background-color:#bbb;">Column</div>
-        <div class="column" style="background-color:#ccc;">Column</div>
+        <div class="column" style="background-color:#aaa;">Parent Student Handbook</div>
+        <div class="column" style="background-color:#bbb;">Megawaiver</div>
+        <div class="column" style="background-color:#aaa;">Proctor Agreement</div>
     </div>
 
     <div class="footer">
