@@ -165,27 +165,22 @@ body {
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 5pt;text-indent: 0pt;line-height: 118%;text-align: left;">By signing this agreement, you are
         confirming that your student’s major assessments are proctored by an educational partner.</p>
-    <p style="text-indent: 0pt;text-align: left;"><br /></p>
-    <p class="s5" style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="279"
-                height="1" alt="image" src="proctoring_files/Image_002.png" /></span> <span><img width="160" height="1"
-                alt="image" src="proctoring_files/Image_003.png" /></span></p>
+    <section class="signature-component">
+    <canvas id="signature-pad" width="400" height="200"></canvas>
+        </div>
+        <div id="editor"></div>
+        <div>
+    
+            <button id="clear">Clear</button>
+            <button id="cmd" onclick="window.print();">Download</button>
+        </div>
+    </section>
     <p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Student’s Learning Coach Signature Date</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="502" height="1"
                 alt="image" src="proctoring_files/Image_004.png" /></span></p>
     <p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Printed Name and Relationship to Student</p>
-<section class="signature-component">
-    <h1>Draw Signature</h1>
-    <h2>with mouse or touch</h2>
 
-    <canvas id="signature-pad" width="400" height="200"></canvas>
-</div>
-<div id="editor"></div>
-    <div>
-       
-        <button id="clear">Clear</button>
-        <button id="cmd" onclick="window.print();">Download</button>
-    </div></section> 
     <script>
        // var doc = new jsPDF();
        // var specialElementHandlers = {
