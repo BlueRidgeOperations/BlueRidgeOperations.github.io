@@ -58,6 +58,10 @@
             margin: 0pt;
             text-align: left;
         }
+        .student {
+            display: flex;
+            flex-direction: row;
+        }
 
 #content {
         text-align: center;
@@ -98,7 +102,7 @@ body {
     font-size: 100%;
   }
   button {
-    
+    padding: 1px;
     background: transparent;
     box-shadow: 2px 2px 4px #777;
    
@@ -138,12 +142,12 @@ body {
         the end of LP1.
         </h1>
 
-    <h2>
+    <div id="student">
         <label for="fname">Student name:</label>
         <input type="text" id="fname" name="fname"><br><br>
         <label for="fname">Student SSID:</label>
         <input type="text" id="SSID" name="SSID"><br><br>
-    </h2>
+    </div>
         <p>Per UCOP, major
         assessments (i.e., unit tests, final exams) for UC approved courses shall be proctored. An approved proctor is
         an educational partner, such as the parent, guardian, tutor, learning coach, vendor instructor, or HST. One
@@ -162,7 +166,7 @@ body {
     <p>By signing this agreement, you are confirming that your student’s major assessments are proctored by an educational partner.</p>
     <br>
     <section class="signature-component">
-    <canvas id="signature-pad" width="600" height="200"></canvas>
+    <canvas id="signature-pad" width="800" height="200"></canvas>
         </div>
         <div id="editor">
             <button id="clear">Clear</button>
