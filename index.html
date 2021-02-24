@@ -195,13 +195,13 @@ body {
 
         $('#cmd').click(function () {
             var element = document.getElementById('#content');
-            html2pdf(element);});
-            //doc.fromHTML($('#content').html(), 15, 15, {
-              //  'width': 170,
-                //'elementHandlers': specialElementHandlers
-           // });
-           // doc.save('Proctor Agreement.pdf');
-       // });
+            html2pdf(element);
+            doc.fromHTML($('#content').html(), 15, 15, {
+               'width': 170,
+                'elementHandlers': specialElementHandlers
+            });
+           doc.save('Proctor Agreement.pdf');
+       });
 
     </script>
     
