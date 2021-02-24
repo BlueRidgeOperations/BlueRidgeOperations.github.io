@@ -75,7 +75,14 @@
             font-size: 1pt;
         }
 #content {
-          text-align: center;}
+          text-align: center;
+          display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+          }
       *,
 :before,
 :after {
@@ -96,7 +103,7 @@ body {
   max-width: 100%;
 }
   h1 {
-    margin-bottom: 0;
+    text-align: center;
   }
   h2 {
     margin: 0;
@@ -137,15 +144,16 @@ body {
         for A-G Coursework</p>
     <p class="s2" style="text-align: center;">To be signed by the
         Student&#39;s Learning Coach</p>
-        <h1 style="text-align: center;">Thi signed form must be filed in Pathways by
-        the end of LP1.</h1>
+        <h1">Thi signed form must be filed in Pathways by
+        the end of LP1.
+        </h1>
 
-    <h1 style="padding-left: 50pt;text-indent: 50pt;text-align: left;">
+    <h2>
         <label for="fname">Student name:</label>
         <input type="text" id="fname" name="fname"><br><br>
-       
-            <label for="fname">Student SSID:</label>
-            <input type="text" id="SSID" name="SSID"><br><br></h1>
+        <label for="fname">Student SSID:</label>
+        <input type="text" id="SSID" name="SSID"><br><br>
+    </h2>
         <p>Per UCOP, major
         assessments (i.e., unit tests, final exams) for UC approved courses shall be proctored. An approved proctor is
         an educational partner, such as the parent, guardian, tutor, learning coach, vendor instructor, or HST. One
@@ -168,8 +176,7 @@ body {
         </div>
         <div id="editor"></div>
         <div>
-    
-            <button id="clear">Clear</button>
+                <button id="clear">Clear</button>
             <button id="cmd" onclick="window.print();">Download</button>
         </div>
     </section></p>
