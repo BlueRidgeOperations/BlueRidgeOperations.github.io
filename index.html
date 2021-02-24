@@ -94,6 +94,29 @@
   border: 1px solid #ddd;
   width: 25%;
 }
+
+.form-inline-two {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add some margins for each label */
+.form-inline-two label {
+  margin: 1px 5px 1px 0;
+}
+
+/* Style the input fields */
+.form-inline-two input {
+  vertical-align: middle;
+  margin: 3px 5px 1px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 25%;
+}
+
 input[type=text]:focus {
   border: 3px solid #555;
 }
@@ -196,7 +219,7 @@ body {
             <button id="clear">Clear</button>
             <button id="cmd" onclick="window.print();">Download</button>
        </div></section></p>
-    <form class="form-inline">
+    <form class="form-inline-two">
     <label for="date">Student's Learning Coach Signature Date:</label>
     <input type="text" id="date" name="date">
     <label for="printname">Printed Name and Relationship to Student:</label>
