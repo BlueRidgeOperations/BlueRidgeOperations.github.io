@@ -58,10 +58,7 @@
             margin: 0pt;
             text-align: left;
         }
-        .student {
-            display: flex;
-            flex-direction: row;
-        }
+        
 
 #content {
         text-align: center;
@@ -75,6 +72,26 @@
         padding-bottom: 1%;
         padding-right: 25%;
           }
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
       *,
 :before,
 :after {
@@ -142,7 +159,7 @@ body {
         the end of LP1.
         </h1>
 
-    <div id="student">
+    <form class="form-inline">
         <label for="fname">Student name:</label>
         <input type="text" id="fname" name="fname"><br><br>
         <label for="fname">Student SSID:</label>
