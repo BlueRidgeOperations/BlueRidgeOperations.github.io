@@ -1,5 +1,3 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -192,7 +190,7 @@
 
 <body>
     <div id="content">
-        <p><span id="logo"><img width="133" height="87" alt="image" src="proctoring_files/Image_001.jpg" /></span></p>
+        <p><span id="logo"><img width="133" height="87" alt="image" src="/Image_001.jpg" /></span></p>
         <p><br /></p>
         <p class="s1" style="text-align: center;">TEST</p>
 
