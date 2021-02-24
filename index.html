@@ -186,22 +186,22 @@ body {
         <button id="cmd" onclick="window.print();">Download</button>
     </div></section> 
     <script>
-        var doc = new jsPDF();
-        var specialElementHandlers = {
-            '#editor': function (element, renderer) {
-                return true;
-            }
-        };
+       // var doc = new jsPDF();
+       // var specialElementHandlers = {
+          //  '#editor': function (element, renderer) {
+              //  return true;
+          //  }
+      //  };
 
-        $('#cmd').click(function () {
+       // $('#cmd').click(function () {
             //var element = document.getElementById('#content');
            // html2pdf(element);
-            doc.fromHTML($('#content').html(), 15, 15, {
-               'width': 170,
-                'elementHandlers': specialElementHandlers
-            });
-           doc.save('Proctor Agreement.pdf');
-       });
+           // doc.fromHTML($('#content').html(), 15, 15, {
+               //'width': 170,
+              //  'elementHandlers': specialElementHandlers
+          //  });
+          // doc.save('Proctor Agreement.pdf');
+      // });
 
     </script>
     
