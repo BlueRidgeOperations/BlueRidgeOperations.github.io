@@ -688,13 +688,13 @@ body {
         throttle: 16, // max x milli seconds on event update, OBS! this introduces lag for event update
         minPointDistance: 3,
     });
-    var saveButton = document.getElementById('save'),
-        clearButton = document.getElementById('clear'),
-        showPointsToggle = document.getElementById('showPointsToggle');
+   // var saveButton = document.getElementById('save'),
+       // clearButton = document.getElementById('clear'),
+       // showPointsToggle = document.getElementById('showPointsToggle');
 
-    saveButton.addEventListener('click', function (event) {
-        var data = signaturePad.toDataURL('image/png');
-        window.open(data);
+    //saveButton.addEventListener('click', function (event) {
+        //var data = signaturePad.toDataURL('image/png');
+       // window.open(data);
     });
     clearButton.addEventListener('click', function (event) {
         signaturePad.clear();
