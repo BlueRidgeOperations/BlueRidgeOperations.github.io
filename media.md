@@ -124,6 +124,7 @@ button:hover span:after {
   -ms-user-select: none;
   user-select: none;
   margin-left: 10%;
+  border: 1px;
 }
 
 /* Hide the browser's default checkbox */
