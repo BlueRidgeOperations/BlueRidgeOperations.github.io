@@ -202,7 +202,10 @@ label {
 
 table {
     max-width: 100%;
-    border: none !important;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
     }
 
 </style>
