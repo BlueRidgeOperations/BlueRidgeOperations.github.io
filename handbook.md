@@ -149,6 +149,9 @@
 <br>
     <section class="signature-component">
         <canvas id="signature-pad" width="800" height="200"></canvas>
+                <div id="editor">
+            <button id="clear2">Clear</button>
+        </div>
     </section>
     <p>Parent Signature</p>
     <br>
@@ -601,14 +604,15 @@
         });
         var saveButton = document.getElementById('save'),
             clearButton = document.getElementById('clear'),
+            clear2Button = document.getElementByEd('clear2')
             showPointsToggle = document.getElementById('showPointsToggle');
 
-        //saveButton.addEventListener('click', function (event) {
-        //var data = signaturePad.toDataURL('image/png');
-        // window.open(data);
-        //});
+
         clearButton.addEventListener('click', function (event) {
             signaturePad.clear();
+        });
+                clear2Button.addEventListener('click', function (event) {
+            signaturePad.clear2();
         });
         showPointsToggle.addEventListener('click', function (event) {
             signaturePad.showPointsToggle();
