@@ -13,6 +13,17 @@
             font-size: 100%;
             text-align: center;
              }
+
+        .p, p { 
+            color: black; 
+            font-family: Calibri, sans-serif; 
+            font-style: normal; 
+            font-weight: normal; 
+            text-decoration: none; 
+            font-size: 100%; 
+            margin:0pt; 
+            }
+            
         .studentone {
             display: flex;
             flex-direction: row;
@@ -32,7 +43,7 @@
             width: auto;
             }
                     
-            #content {
+        #content {
             justify-content: center;
             align-items: center;
             height: 100%;
