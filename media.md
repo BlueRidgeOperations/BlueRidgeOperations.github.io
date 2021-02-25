@@ -186,7 +186,7 @@ input {
     padding-right: 8px;
     padding-left: 50px;
     margin-bottom: 10%;
-    width: 250%;
+    width: 100%;
     margin-left: 15%;
 
         }
