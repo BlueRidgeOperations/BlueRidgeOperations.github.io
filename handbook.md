@@ -24,7 +24,7 @@
             margin:0pt; 
             }
             
-        .studentone {
+        .student {
             display: flex;
             flex-direction: row;
             font-family: Calibri, sans-serif;
