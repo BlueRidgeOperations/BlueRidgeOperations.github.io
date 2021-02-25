@@ -44,38 +44,23 @@
             list-style-type: none;
             font-family: Calibri, sans-serif; 
         }
-        .address {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-            
-        }
-        .studentone {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-            
-        }
-        .studenttwo {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
-        .studentthree {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
-        .studentfour {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
+
         .parent {
             display: flex;
             flex-direction: row;
             font-family: Calibri, sans-serif;
         }
+        label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 50%;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
                  *,
         :before,
         :after {
