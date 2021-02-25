@@ -252,7 +252,7 @@
                         self._drawMark(point.x, point.y, 5);
                     }
                 };
-                this._handleTouchMove = _.throttle(_handleTouchMove, self.throttle, self.throttleOptions);
+                //this._handleTouchMove = _.throttle(_handleTouchMove, self.throttle, self.throttleOptions);
                 //this._handleTouchMove = _handleTouchMove;
 
                 this._handleTouchEnd = function (event) {
@@ -697,7 +697,7 @@
                         self._drawMark(point.x, point.y, 5);
                     }
                 };
-                this._handleTouchMove = _.throttle(_handleTouchMove, self.throttle, self.throttleOptions);
+                //this._handleTouchMove = _.throttle(_handleTouchMove, self.throttle, self.throttleOptions);
                 //this._handleTouchMove = _handleTouchMove;
  
                 this._handleTouchEnd = function (event) {
