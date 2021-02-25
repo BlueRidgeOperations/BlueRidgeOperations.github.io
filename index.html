@@ -27,6 +27,7 @@
         h1 {
            font-family: 'Montserrat', sans-serif;
            font-weight:500;
+           font-size: 200%;
         }
 
 
@@ -40,7 +41,7 @@
             margin-left: 0 auto;
             margin-right: 0 auto;
             margin-top: 0;
-            font-size: 120%;
+            
         }
 
         /* Container for flexboxes */
@@ -51,6 +52,9 @@
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             font-size: 175%;
+            justify-content: center;
+            
+            
         }
 
         /* Create three equal columns that sits next to each other */
@@ -62,7 +66,7 @@
             height: 100px;
             margin: 5px;
             border-radius: 1%;
-            
+                        
         }
 
         /* Style the footer */
@@ -73,19 +77,28 @@
             max-width: 100%;
         }
 
+        a:link {
+            color: #2E3C67;
+        }
+        
+        a:visited {
+            color: #293C69;
+        }
+
         /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
         @media (max-width: 600px) {
             .row {
                 -webkit-flex-direction: column;
                 flex-direction: column;
                 font-family: 'Montserrat', sans-serif;
-                font-weight:400;
-            }
+                font-weight:400;}              
+            
         }
         .content {
             text-align: center;
             justify-content: center;
             align-items: center;
+            max-width: 75%;
             width: 90%;
             background-color: #f1f1f1;
             opacity: .95;
@@ -95,9 +108,10 @@
             padding-right: 5%;
             padding-bottom: 1%;
             border-radius: 1%;
+            height: 70%;
         }
         .center {
-            max-width:50%;
+            max-width:25%;
             height:auto;
             width: auto;
             margin: auto;      
@@ -108,8 +122,14 @@
             padding-top: 10px;
         }
         span {
-            display: inline-block;
-            vertical-align: middle;
+              display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 75px;
+  
+        }
+        .footer {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -118,21 +138,19 @@
     <div class="centered-image-container">
     <img src="/logo.png" class="center" alt="Logo" />
     </div>
-    <br><br>
+    <br>
     <div class="content">
     <div class="header">
         <h1>Enrollment Documents</h1>
     </div>
 
     <div class="row">
-        <a href="/handbook"><div class="column" style="background-color:#aaa;"><span><a href="/handbook">Student Handbook</span></div></a>
-        <a href="/megawaiver"><div class="column" style="background-color:#bbb;"><span>Megawaiver</span></div></a>
-        <a href="/proctor"><div class="column" style="background-color:#aaa;"><span>Proctor Agreement</span></div></a>
+        <a href="/handbook"><div class="column" style="background-color:#96A2B8;"><span>Student Handbook</span></div></a>
+        <a href="/megawaiver"><div class="column" style="background-color:#96A2B8;"><span>Megawaiver</span></div></a>
+        <a href="/proctor"><div class="column" style="background-color:#96A2B8;"><span>Proctor Agreement</span></div></a>
     </div>
 
-    <div class="footer">
-        <p>Footer</p>
-    </div>
+ 
 </div>
 </body>
 
