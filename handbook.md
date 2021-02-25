@@ -4,6 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Handbook</title><meta name="author" content="Cathleen Hernandez"/>
 <style>
+        body {
+           background-color: #141D34;
+        }
         h1 { 
             color: black; 
             font-family: Calibri, sans-serif;
@@ -13,6 +16,9 @@
             font-size: 100%;
             text-align: center;
              }
+        ul {
+            margin-left: 25%;
+        }
 
         .p, p { 
             color: black; 
@@ -72,6 +78,7 @@
         }, { embedMode: "SIZED_CONTAINER" });
     });
 </script>
+<br>
 <p>By signing, you are agreeing to the policies and procedures of the Parent Student Handbook including but not limited to:</p>
 <ul>
     <li>Enrollment Requirements</li>
@@ -87,8 +94,33 @@
     <li>Academy Integrity</li>
     </ul>
 <br>
+<br>
+    <section class="signature-component">
+        <canvas id="signature-pad" width="800" height="200"></canvas>
+        <div id="editor">
+            <button id="clear">Clear</button>
+        </div>
+    </section>
+    <p>Student Signature</p>
+    <br>
+    <button id="cmd" onclick="window.print();">Download</button>
+<br>
     <form class="student">
         <label for="sname">Student Name:</label>
+        <input type="text" id="sname" name="sname"><br>
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date">
+    </form>
+<br>
+    <section class="signature-component">
+        <canvas id="signature-pad" width="800" height="200"></canvas>
+    </section>
+    <p>Parent Signature</p>
+    <br>
+    <button id="cmd" onclick="window.print();">Download</button>
+<br>
+    <form class="student">
+        <label for="sname">Parent/Guardian Name:</label>
         <input type="text" id="sname" name="sname"><br>
         <label for="date">Date:</label>
         <input type="text" id="date" name="date">
