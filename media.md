@@ -184,7 +184,6 @@ button:hover span:after {
 input {
     text-align: left;  
     padding-right: 8px;
-    padding-left: 50px;
     margin-bottom: 10%;
     width: 100%;
     margin-left: 15%;
