@@ -10,3 +10,24 @@
         }, { embedMode: "SIZED_CONTAINER" });
     });
 </script>
+<p>By signing, you are agreeing to the policies and procedures of the Parent Student Handbook including but not limited to:</p>
+<ul>
+    <li>Enrollment Requirements</li>
+    <li>Academic Expectations</li>
+    <li>Report Card & Grading</li>
+    <li>Attendance</li>
+    <li>Non-Compliance</li>
+    <li>Work Samples</li>
+    <li>Technology Usage</li>
+    <li>Testing & Assessments</li>
+    <li>Behavioral Expectations</li>
+    <li>Instructional Funding</li>
+    <li>Academy Integrity</li>
+    </ul>
+<br>
+    <form class="studentone">
+        <label for="sname">Student name:</label>
+        <input type="text" id="sname" name="sname"><br>
+        <label for="datee">Date:</label>
+        <input type="text" id="date" name="date">
+    </form>
