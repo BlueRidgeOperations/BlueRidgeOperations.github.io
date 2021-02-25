@@ -277,10 +277,28 @@ of education programs through the use of mass media, displays, brochures, websit
     <input type="text" id="sname" name="sname"><br>
 </form>
 
-<form class="address">
-    <label for="add"><span id=ad>Address<br>(Number, Street,<br> Apartment Number,<br>City, State<br>and Zip Code):</span></label>
-    <input type="text" id="add" name="add"><br>
+<form class="studentone">
+    <label for="sname">Address Line 1:</label>
+    <input type="text" id="sname" name="sname"><br>
 </form>
+<form class="studentone">
+    <label for="sname">Address Line 2:</label>
+    <input type="text" id="sname" name="sname"><br>
+</form>
+<form class="studentone">
+    <label for="sname">City</label>
+    <input type="text" id="sname" name="sname"><br>
+</form>
+<form class="studentone">
+    <label for="sname">State</label>
+    <input type="text" id="sname" name="sname"><br>
+</form>
+<form class="studentone">
+    <label for="sname">Zip/Postal Code</label>
+    <input type="text" id="sname" name="sname"><br>
+</form>
+
+
 </div>
 <br>
 
