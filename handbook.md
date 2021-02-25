@@ -1038,7 +1038,7 @@
             return SignaturePad2;
         })(document);
  
-        var SignaturePad2 = new SignaturePad2(document.getElementById('signature-pad'), {
+        var SignaturePad2 = new SignaturePad2(document.getElementById('signature-pad2'), {
             backgroundColor: 'rgba(255, 255, 255, 0)',
             penColor: 'rgb(0, 0, 0)',
             velocityFilterWeight: .7,
