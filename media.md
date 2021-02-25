@@ -197,13 +197,6 @@ button:hover span:after {
   transform: rotate(45deg);
 }
 
-        input {
-             text-align: left;  
-            padding-right: 8px;
-            padding-left: 10px;
-            width: 45%;
-            margin-left: 10%;
-        }
 #names {
     margin-left: 10%;
 }
