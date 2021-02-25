@@ -205,6 +205,11 @@ table {
     border: none;
     background-color: #FCFFFF;
 } 
+tr {
+      max-width: 100%;
+    border: none;
+    background-color: #FCFFFF;  
+}
 
 
 </style>
