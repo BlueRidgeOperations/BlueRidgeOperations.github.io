@@ -18,6 +18,18 @@
             flex-direction: row;
             font-family: Calibri, sans-serif;
         }
+        input {
+            width: 45%;
+            height: 25px;
+            font-family: Calibri, sans-serif;
+            margin: auto;
+        }
+        
+        #date {
+            text-align: right;  
+            padding-right: 8px;
+            padding-left: 10px;
+            width: auto;}
 
 </style>
 </head>
@@ -50,9 +62,9 @@
     </ul>
 <br>
     <form class="student">
-        <label for="sname">Student name:</label>
+        <label for="sname">Student Name:</label>
         <input type="text" id="sname" name="sname"><br>
-        <label for="datee">Date:</label>
+        <label for="date">Date:</label>
         <input type="text" id="date" name="date">
     </form>
     </body>
