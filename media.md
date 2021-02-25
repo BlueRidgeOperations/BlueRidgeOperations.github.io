@@ -201,6 +201,10 @@ label {
     align-items: center;
 }
 
+table {
+    max-width: 100%;
+}
+
 </style>
 </head>
 <body>
