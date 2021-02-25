@@ -615,12 +615,16 @@
         });
         var saveButton = document.getElementById('save'),
             clearButton = document.getElementById('clear'),
-            
+            clear2Button = document.getElementById('clear2')
             showPointsToggle = document.getElementById('showPointsToggle');
 
 
         clearButton.addEventListener('click', function (event) {
             signaturePad.clear();
+        });
+
+           clear2Button.addEventListener('click', function (event) {
+            signaturePad.clear2();
         });
  
         showPointsToggle.addEventListener('click', function (event) {
