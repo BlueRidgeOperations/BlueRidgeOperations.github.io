@@ -202,7 +202,7 @@ label {
 
 table {
     max-width: 100%;
-    border: none;
+    border: none !important;
     }
 
 </style>
