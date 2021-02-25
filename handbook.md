@@ -1,3 +1,23 @@
+<head>
+<style>
+        h1 { 
+            color: black; 
+            font-family: Calibri, sans-serif;
+            font-style: normal; 
+            font-weight: bold; 
+            text-decoration: none; 
+            font-size: 100%;
+            text-align: center;
+             }
+        .studentone {
+            display: flex;
+            flex-direction: row;
+            font-family: Calibri, sans-serif;
+        }
+
+</style>
+</head>
+<body>
 <h1>Please review and sign the Parent Student Handbook below</h1>
 <div id="adobe-dc-view" style="height: 800px; width: 800px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -25,9 +45,10 @@
     <li>Academy Integrity</li>
     </ul>
 <br>
-    <form class="studentone">
+    <form class="student">
         <label for="sname">Student name:</label>
         <input type="text" id="sname" name="sname"><br>
         <label for="datee">Date:</label>
         <input type="text" id="date" name="date">
     </form>
+    </body>
