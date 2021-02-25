@@ -212,6 +212,11 @@ tr {
     background-color: #FCFFFF;  
 }
 
+td {
+       max-width: 100%;
+    border: none;
+    background-color: #FCFFFF;     
+}
 
 </style>
 </head>
