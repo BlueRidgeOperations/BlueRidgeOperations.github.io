@@ -29,11 +29,26 @@
             text-align: right;  
             padding-right: 8px;
             padding-left: 10px;
-            width: auto;}
+            width: auto;
+            }
+                    
+            #content {
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 90%;
+            background-color: #FCFFFF;
+            Margin: 0 auto;
+            padding-top: 0%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 3%;
+        }
 
 </style>
 </head>
 <body>
+<div id="content">
 <h1>Please review and sign the Parent Student Handbook below</h1>
 <div id="adobe-dc-view" style="height: 800px; width: 800px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -67,4 +82,5 @@
         <label for="date">Date:</label>
         <input type="text" id="date" name="date">
     </form>
+</div>
     </body>
