@@ -6,6 +6,6 @@
         adobeDCView.previewFile({
             content: { location: { url: "Parent Student Handbook 2021-2022.pdf"} },
             metaData: { fileName: "Parent_Student_Handbook.pdf" }
-        }, { embedMode: "IN_LINE" });
+        }, { embedMode: "SIZED_CONTAINER" });
     });
 </script>
