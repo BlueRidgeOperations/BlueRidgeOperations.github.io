@@ -61,6 +61,43 @@
             padding-right: 5%;
             padding-bottom: 3%;
         }
+         *,
+        :before,
+        :after {
+            box-sizing: border-box;
+        }
+
+        .signature-component {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+            padding-bottom: 0px;
+            
+        }
+        button {
+            padding: 1px;
+            background: transparent;
+            box-shadow: 2px 2px 4px #777;
+
+            border: 1px solid #777;
+            font-size: 1rem;
+            font-family: Calibri, sans-serif;
+        }
+
+        .toggle {
+            background: rgba(red, .2);
+        }
+
+        canvas {
+            display: block;
+            position: relative;
+            border: 1px solid;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            max-width: 100%;
+            
+        }
 
 </style>
 </head>
@@ -102,8 +139,6 @@
         </div>
     </section>
     <p>Student Signature</p>
-    <br>
-    <button id="cmd" onclick="window.print();">Download</button>
 <br>
     <form class="student">
         <label for="sname">Student Name:</label>
