@@ -203,7 +203,8 @@ label {
 
 table {
     max-width: 100%;
-}
+    border: none;
+    }
 
 </style>
 </head>
@@ -220,6 +221,7 @@ in which your pupil has participated in his/her education program. Your authoriz
 prepared materials to (1) train teachers and/or (2) increase public awareness and promote continuation and improvement
 of education programs through the use of mass media, displays, brochures, websites, etc.</p>
 <br>
+<div style="overflow-x:auto;">
         <table>
             <tbody>
                 <tr>
@@ -260,12 +262,7 @@ of education programs through the use of mass media, displays, brochures, websit
                 </tr>
             </tbody>
         </table>
-
-
-        
-        </html>
-
-
+</div>
 <br>
 
     <p><b>a.</b> I, as a parent or guardian, of the above named student fully authorize and grant Blue Ridge Academy and its
