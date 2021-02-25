@@ -205,16 +205,18 @@ table {
     max-width: 100%;
     border: none;
     background-color: #FCFFFF;
+    border-color: #FCFFFF; 
 } 
 tr {
       max-width: 100%;
     border: none;
-    background-color: #FCFFFF;  
+    background-color: #FCFFFF; 
+    border-color: #FCFFFF;  
 }
 
 td {
        max-width: 100%;
-    border: none;
+    border-color: #FCFFFF; 
     background-color: #FCFFFF;     
 }
 
