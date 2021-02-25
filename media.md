@@ -44,38 +44,7 @@
             list-style-type: none;
             font-family: Calibri, sans-serif; 
         }
-        .address {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-            
-        }
-        .studentone {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-            
-        }
-        .studenttwo {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
-        .studentthree {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
-        .studentfour {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
-        .parent {
-            display: flex;
-            flex-direction: row;
-            font-family: Calibri, sans-serif;
-        }
+
                  *,
         :before,
         :after {
@@ -212,37 +181,25 @@ button:hover span:after {
   transform: rotate(45deg);
 }
 
-        input {
-             text-align: left;  
-            padding-right: 8px;
-            padding-left: 10px;
-            width: 45%;
-            margin-left: 10%;
-        }
-#names {
-    margin-left: 10%;
-}
-
-
-
-#add {
+input {
     text-align: left;  
-    padding-right: 1px;
-    padding-left: 0px;
-    width: 75%;
-    height: 23px;
-                   
-}
+    padding-right: 8px;
+    padding-left: 50px;
+    margin-bottom: 10%;
+    width: 250%;
+    margin-left: 15%;
 
-#ad {
-    font-size: 75%;
-}
-#date {
-            text-align: left;  
-            padding-right: 8px;
-            padding-left: 10px;
-            width: auto;
         }
+label {
+    padding-left: 3px;
+    font-family: Calibri, sans-serif;
+    font-size: 100%; 
+}
+#dl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 </style>
 </head>
@@ -259,47 +216,52 @@ in which your pupil has participated in his/her education program. Your authoriz
 prepared materials to (1) train teachers and/or (2) increase public awareness and promote continuation and improvement
 of education programs through the use of mass media, displays, brochures, websites, etc.</p>
 <br>
-<div id=names>
-<form class="studentone">
-    <label for="sname">Student name:</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studenttwo">
-    <label for="sname">Student name:</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studentthree">
-    <label for="sname">Student name:</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studentfour">
-    <label for="sname">Student name:</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Student Name:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Student Name:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Student Name:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Student Name:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Address Line 1:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Address Line 2:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">City:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">State:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Zip/Postal Code:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+            </tbody>
+        </table>
 
-<form class="studentone">
-    <label for="sname">Address Line 1:</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studentone">
-    <label for="sname">Address Line 2:</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studentone">
-    <label for="sname">City</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studentone">
-    <label for="sname">State</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
-<form class="studentone">
-    <label for="sname">Zip/Postal Code</label>
-    <input type="text" id="sname" name="sname"><br>
-</form>
+
+        
+        </html>
 
 
-</div>
 <br>
 
     <p><b>a.</b> I, as a parent or guardian, of the above named student fully authorize and grant Blue Ridge Academy and its
@@ -340,13 +302,17 @@ of education programs through the use of mass media, displays, brochures, websit
 </section>
 <p style="font-size: 35%;">Parent/Guardian Signature</p>
 <br>
-<form class="parent">
-    <label for="pname">Parent/Guardian Name:</label>
-    <input type="text" id="pname" name="pname"><br>
-    <label for="date">Date:</label>
-    <input type="text" id="date" name="date">
-</form>
-<button id="cmd" onclick="window.print();"><span>Download</span></button>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Parent/Guardian Name:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Date:</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr></tbody></table>
+<div id="dl"><button id="cmd" onclick="window.print();"><span>Download</span></button></div>
 <script>
        // var doc = new jsPDF();
        // var specialElementHandlers = {
