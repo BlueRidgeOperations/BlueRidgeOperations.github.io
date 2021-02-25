@@ -624,7 +624,7 @@
         });
 
            clear2Button.addEventListener('click', function (event) {
-            signaturePad.clear2();
+            signaturePad.clear();
         });
  
         showPointsToggle.addEventListener('click', function (event) {
