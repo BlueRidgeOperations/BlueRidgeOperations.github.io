@@ -29,13 +29,14 @@
         /* Style the header */
         .header {
             background-color: #f1f1f1;
-            padding: 30px;
+            padding: 10px;
             text-align: center;
-            font-size: 35px;
+            font-size: 100%;
             max-width: 100%;
             margin-left: 0 auto;
             margin-right: 0 auto;
             margin-top: 0;
+            font-size: 120%;
         }
 
         /* Container for flexboxes */
@@ -45,6 +46,7 @@
             max-width: 100%;
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;
+            font-size: 175%;
         }
 
         /* Create three equal columns that sits next to each other */
@@ -53,8 +55,8 @@
             -ms-flex: 1;
             flex: 1;
             padding: 10px;
-            height: 300px;
-            /* Should be removed. Only for demonstration */
+            height: 100px;
+            
         }
 
         /* Style the footer */
@@ -86,7 +88,7 @@
             padding-top: 0%;
             padding-left: 5%;
             padding-right: 5%;
-            padding-bottom: 3%;
+            padding-bottom: 1%;
         }
         .center {
             max-width:50%;
@@ -98,7 +100,10 @@
         .centered-image-container {
             text-align: center;
         }
-        
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
@@ -113,9 +118,9 @@
     </div>
 
     <div class="row">
-        <div class="column" style="background-color:#aaa;">Parent Student Handbook</div>
-        <div class="column" style="background-color:#bbb;">Megawaiver</div>
-        <div class="column" style="background-color:#aaa;">Proctor Agreement</div>
+        <div class="column" style="background-color:#aaa;"><span><a href=proctoring.mdt>Student Handbook</a></span></div>
+        <div class="column" style="background-color:#bbb;"><span>Megawaiver</span></div>
+        <div class="column" style="background-color:#aaa;"><span>Proctor Agreement</span></div>
     </div>
 
     <div class="footer">
