@@ -300,7 +300,7 @@ of education programs through the use of mass media, displays, brochures, websit
         <button id="clear">Clear</button>
     </div>
 </section>
-<p style="font-size: 35%;">Parent/Guardian Signature</p>
+<p style="font-size: 50%;">Parent/Guardian Signature</p>
 <br>
         <table>
             <tbody>
@@ -787,5 +787,3 @@ of education programs through the use of mass media, displays, brochures, websit
         showPointsToggle.classList.toggle('toggle');
     });
 </script>
-
-</body>
