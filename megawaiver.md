@@ -226,6 +226,12 @@ button:hover span:after {
   opacity: 1;
   right: 0;
 }
+
+#dl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 </style>
 </head>
 <div id="content">
@@ -320,7 +326,7 @@ button:hover span:after {
     </section>
     <p>Authorized Signature of Parent/Guardian</p>
     <br>
-    <button id="cmd" onclick="window.print();">Download</button>
+    <div id="dl"><button id="cmd" onclick="window.print();">Download</button></div>
 
     <script>
         /*!
