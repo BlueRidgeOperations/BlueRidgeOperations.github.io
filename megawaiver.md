@@ -184,8 +184,10 @@
         #box {
             text-align: right;
             margin-left: 0%;
+            padding: 0%;
         }
-        button {
+    
+    button {
   display: inline-block;
   border-radius: 4px;
   background-color: #141D34;
