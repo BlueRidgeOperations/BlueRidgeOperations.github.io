@@ -146,7 +146,7 @@
             border: 1px solid;
             padding-bottom: 0px;
             margin-bottom: 0px;
-            max-width: 100%;
+            max-width: 90%;
             
         }
         #content {
@@ -180,6 +180,10 @@
             padding-right: 8px;
             padding-left: 10px;
             width: auto;
+        }
+        #box {
+            text-align: right;
+            margin-left: 0%;
         }
 </style>
 </head>
