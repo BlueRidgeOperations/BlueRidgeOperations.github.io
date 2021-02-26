@@ -280,7 +280,7 @@ of education programs through the use of mass media, displays, brochures, websit
     <input type="radio" name="radio">
     <span class="checkmark"></span>
 </label>
-<br>
+
 <br>
 <section class="signature-component">
     <canvas id="signature-pad" width="800" height="200"></canvas>
@@ -289,7 +289,7 @@ of education programs through the use of mass media, displays, brochures, websit
         <button id="clear">Clear</button>
     </div>
 </section>
-<p style="font-size: 50%;">Parent/Guardian Signature</p>
+<p>Parent/Guardian Signature</p>
 <br>
         <table>
             <tbody>
