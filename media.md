@@ -174,6 +174,7 @@ input {
     margin-bottom: 10%;
     width: 150%;
     margin-left: 15%;
+    max-width; 100%;
 
         }
 label {
