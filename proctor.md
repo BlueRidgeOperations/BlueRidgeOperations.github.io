@@ -98,6 +98,8 @@
             background-color: #fff;
             border: 1px solid #ddd;
             width: 75%;
+            align-items: center;
+            justify-content: center;
         }
 
         .form-inline-two {
@@ -108,6 +110,8 @@
         /* Add some margins for each label */
         .form-inline-two label {
             margin: 3px 5px 1px 0;
+            align-items: center;
+            justify-content: center;
         }
 
         /* Style the input fields */
