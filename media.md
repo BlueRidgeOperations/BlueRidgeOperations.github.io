@@ -271,7 +271,6 @@ of education programs through the use of mass media, displays, brochures, websit
     relate to or arise out of any use of these Recordings as specified above.</p>
 <br>
 <p>I have read and understand the release, and I agree to accept its provisions</p>
-<br>
 <label class="container">Yes
     <input type="radio" checked="checked" name="radio">
     <span class="checkmark"></span>
