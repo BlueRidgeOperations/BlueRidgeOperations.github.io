@@ -224,6 +224,11 @@
         <label for="in">Initials:</label>
         <input type="text" id="in" name="in">
     </form>
+<label class="container">My family has not determined out activities for the year. I understand that by checking this box, I will have to complete a paper version of this document when my family does select our activities for this year. 
+    <input type="checkbox" id="box">
+    <span class="checkmark"></span>
+</label>
+<br>
     <br>
     <h2>PARENTS, PLEASE NOTE:</h2>
     <p>Extracurricular activities are not guaranteed and are at the discretion of the school and can be revoked at any time.
