@@ -272,7 +272,7 @@ of education programs through the use of mass media, displays, brochures, websit
 <br>
 <p>I have read and understand the release, and I agree to accept its provisions</p>
 <label class="container">Yes
-    <input type="radio" checked="checked" name="radio">
+    <input type="radio" name="radio">
     <span class="checkmark"></span>
 </label>
 <label class="container">No

@@ -263,7 +263,7 @@ td {
 <br>
 <p>He leído y entendido la liberación, y estoy de acuerdo en aceptar sus disposiciones.</p>
 <label class="container">Sí
-    <input type="radio" checked="checked" name="radio">
+    <input type="radio"  name="radio">
     <span class="checkmark"></span>
 </label>
 <label class="container">No
