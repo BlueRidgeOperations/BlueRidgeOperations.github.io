@@ -721,9 +721,3 @@
                     showPointsToggle.classList.toggle('toggle');
                 });
             </script>
-    </div>
-</body>
-
-
-
-</html>
