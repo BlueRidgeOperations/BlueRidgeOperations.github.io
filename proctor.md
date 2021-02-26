@@ -18,24 +18,6 @@
             text-indent: 0;
         }
 
-        .s1 {
-            color: black;
-            font-family: Calibri, sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            text-decoration: none;
-            font-size: 16pt;
-        }
-
-        .s2 {
-            color: black;
-            font-family: Calibri, sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            text-decoration: none;
-            font-size: 12pt;
-        }
-
         h1 {
             color: black; 
             font-family: Calibri, sans-serif;
@@ -61,10 +43,9 @@
 
 
         #content {
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
+            text-align: left;
+            justify-content: left;
+            align-items: left;
             width: 95%;
             background-color: #FCFFFF;
             Margin: 0 auto;
@@ -77,52 +58,37 @@
         #editor {
             padding-bottom: 0px;
         }
+table {
+    max-width: 100%;
+    border: none;
+    background-color: #FCFFFF;
+    
+} 
+tr {
+      max-width: 100%;
+    border: none;
+    background-color: #FCFFFF; 
+    border: none;
+}
 
-        .form-inline {
-            display: flex;
-            flex-flow: column wrap;
-            align-items: center;
-            justify-content: center;
-        }
+td {
+    max-width: 100%;
+    border: none;     
+}
+input {
+    text-align: left;  
+    padding-right: 8px;
+    margin-bottom: 1%;
+    width: 150%;
+    margin-left: 15%;
 
-        /* Add some margins for each label */
-        .form-inline label {
-            margin: 1px 5px 1px 0;
         }
+label {
+    padding-left: 3px;
+    font-family: Calibri, sans-serif;
+    font-size: 100%; 
+}
 
-        /* Style the input fields */
-        .form-inline input {
-            vertical-align: middle;
-            margin: 3px 5px 1px 0;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            width: 75%;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .form-inline-two {
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Add some margins for each label */
-        .form-inline-two label {
-            margin: 3px 5px 1px 0;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Style the input fields */
-        .form-inline-two input {
-            vertical-align: middle;
-            margin: 3px 5px 1px 0;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            width: 75%;
-        }
 
         input[type=text]:focus {
             border: 3px solid #555;
@@ -134,10 +100,6 @@
             box-sizing: border-box;
         }
 
-        html {
-            font: 18px 'Helvetica Neue', sans-serif;
-        }
-
         body {
             text-align: center;
             background-color: #141D34;
@@ -145,7 +107,7 @@
 
         .signature-component {
             text-align: left;
-            display: inline-block;
+            display: flex;
             max-width: 100%;
             padding-bottom: 0px;
         }
@@ -223,6 +185,11 @@ button:hover span:after {
             margin: 0 auto;
 
         }
+        #dl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     </style>
 </head>
 
@@ -235,12 +202,20 @@ button:hover span:after {
             the end of LP1.
             </p>
             <br>
-            <form class="form-inline">
-                <label for="fname">Student name:</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="fname">Student SSID:</label>
-                <input type="text" id="SSID" name="SSID">
-            </form>
+<div>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="name">Student Name:</label></td>
+                <td><input id="name" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="name">SSID:</label></td>
+                <td><input id="name" type="text"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
             <br><br />
             <p>Per UCOP, major
                 assessments (i.e., unit tests, final exams) for UC approved courses shall be proctored. An approved
@@ -269,20 +244,31 @@ button:hover span:after {
             <p>By signing this agreement, you are confirming that your student’s major assessments are proctored by an
                 educational partner.</p>
             <br>
+            
             <section class="signature-component">
                 <canvas id="signature-pad" width="800" height="200"></canvas>
 
                 <div id="editor">
                     <button id="clear">Clear</button>
                 </div>
+                
             </section>
-          
-            <form class="form-inline-two">
-                <label for="date">Student's Learning Coach Signature Date:</label>
-                <input type="text" id="date" name="date"><br>
-                <label for="printname">Printed Name and Relationship to Student:</label>
-                <input type="text" id="printname" name="printname"></form>
-            <button id="cmd" onclick="window.print();">Download</button>
+        <p>Authorized Signature of Parent/Guardian</p>
+        <br>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="name">Student's Learning Coach Signature Date:</label></td>
+                <td><input id="name" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Printed Name and Relationship to Student:</label></td>
+                <td><input id="name" type="text"></td>
+            </tr>
+        </tbody>
+    </table>
+
+        <div id="dl"> <button id="cmd" onclick="window.print();">Download</button></div></div>
             <script>
        // var doc = new jsPDF();
        // var specialElementHandlers = {
@@ -757,3 +743,4 @@ button:hover span:after {
                     showPointsToggle.classList.toggle('toggle');
                 });
             </script>
+           
