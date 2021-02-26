@@ -184,15 +184,15 @@ button:hover span:after {
         </div>
     </section>
     <p>Parent Signature</p>
-    <br>
-    <button id="cmd" onclick="window.print();">Download</button>
-<br>
     <form class="student">
         <label for="sname">Parent/Guardian Name:</label>
         <input type="text" id="sname" name="sname"><br>
         <label for="date">Date:</label>
         <input type="text" id="date" name="date">
     </form>
+        <br>
+    <button id="cmd" onclick="window.print();">Download</button>
+<br>
 </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
