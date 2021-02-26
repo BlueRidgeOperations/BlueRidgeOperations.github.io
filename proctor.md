@@ -192,14 +192,13 @@
 
 <body>
     <div id="content">
-        <p><span id="logo"><img width="133" height="87" alt="image" src="/Image_001.jpg" /></span></p>
-        <p><br /></p>
-               <h1 style="text-align: center;">To be signed by the
-            Student&#39;s Learning Coach</h1>
+    <h1 style="text-align: center;">Proctoring Agreement for A-G Coursework</h2>
+               <p style="text-align: center;">To be signed by the
+            Student&#39;s Learning Coach</p>
 
-        <h1>This signed form must be filed in Pathways by
+        <p>This signed form must be filed in Pathways by
             the end of LP1.
-            </h1>
+            </p>
             <br><br />
             <br>
             <form class="form-inline">
