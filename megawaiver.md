@@ -283,7 +283,7 @@ button:hover span:after {
     </form>
     <br>
 <div id="container">
-    <input type="checkbox" id="box">My family has not determined out activities for the year. I understand that by checking this box, I will have to complete a paper version of this document when my family does select our activities for this year. 
+    <input type="checkbox" id="box">My family has not determined our activities for the year. I understand that by checking this box, I will have to complete a paper version of this document when my family does select our activities for this year. 
     <span class="checkmark"></span>
 </div>
 <br>
