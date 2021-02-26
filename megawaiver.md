@@ -232,6 +232,12 @@ button:hover span:after {
     justify-content: center;
     align-items: center;
 }
+
+#container{
+    display: flex;
+    justify-content: left;
+    align-items: left; 
+}
 </style>
 </head>
 <div id="content">
@@ -275,10 +281,10 @@ button:hover span:after {
         <label for="in">Initials:</label>
         <input type="text" id="in" name="in">
     </form>
-<label class="container">
+<div id="container">
     <input type="checkbox" id="box">My family has not determined out activities for the year. I understand that by checking this box, I will have to complete a paper version of this document when my family does select our activities for this year. 
     <span class="checkmark"></span>
-</label>
+</div>
 <br>
     <br>
     <h2>PARENTS, PLEASE NOTE:</h2>
