@@ -125,7 +125,7 @@ button:hover span:after {
             border: 1px solid;
             padding-bottom: 0px;
             margin-bottom: 0px;
-            max-width: 100%;
+            max-width: 90%;
             
         }
 
