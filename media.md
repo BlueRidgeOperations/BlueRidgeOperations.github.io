@@ -135,6 +135,7 @@ button:hover span:after {
   height: 0;
   width: 0;
   
+  
 }
 
 /* Create a custom checkbox */
@@ -145,6 +146,7 @@ button:hover span:after {
   height: 25px;
   width: 25px;
   background-color: #eee;
+  border: 1px;
 }
 
 /* On mouse-over, add a grey background color */
