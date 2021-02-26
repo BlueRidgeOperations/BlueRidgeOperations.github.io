@@ -192,12 +192,10 @@
     <div id="content">
         <p><span id="logo"><img width="133" height="87" alt="image" src="/Image_001.jpg" /></span></p>
         <p><br /></p>
-        <p class="s1" style="text-align: center;">TEST</p>
+               <h1 style="text-align: center;">To be signed by the
+            Student&#39;s Learning Coach</h1>
 
-        <p class="s2" style="text-align: center;">To be signed by the
-            Student&#39;s Learning Coach</p>
-
-        <h1">This signed form must be filed in Pathways by
+        <h1>This signed form must be filed in Pathways by
             the end of LP1.
             </h1>
             <br><br />
@@ -243,7 +241,7 @@
                     <button id="clear">Clear</button>
                 </div>
             </section>
-            </p>
+          
             <form class="form-inline-two">
                 <label for="date">Student's Learning Coach Signature Date:</label>
                 <input type="text" id="date" name="date"><br>
