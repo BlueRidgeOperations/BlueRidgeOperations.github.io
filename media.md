@@ -244,18 +244,6 @@ of education programs through the use of mass media, displays, brochures, websit
                     <td><input id="name" type="text"></td>
                 </tr>
                 <tr>
-                    <td><label for="name">Student Name:</label></td>
-                    <td><input id="name" type="text"></td>
-                </tr>
-                <tr>
-                    <td><label for="name">Student Name:</label></td>
-                    <td><input id="name" type="text"></td>
-                </tr>
-                <tr>
-                    <td><label for="name">Student Name:</label></td>
-                    <td><input id="name" type="text"></td>
-                </tr>
-                <tr>
                     <td><label for="name">Address Line 1:</label></td>
                     <td><input id="name" type="text"></td>
                 </tr>

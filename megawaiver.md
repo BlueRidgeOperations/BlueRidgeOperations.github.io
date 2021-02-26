@@ -196,24 +196,6 @@
         <label for="grade">Student Grade:</label>
         <input type="text" id="grade" name="grade">
     </form>
-    <form class="studenttwo">
-        <label for="sname">Student name:</label>
-        <input type="text" id="sname" name="sname"><br>
-        <label for="grade">Student Grade:</label>
-        <input type="text" id="grade" name="grade">
-    </form>
-    <form class="studentthree">
-        <label for="sname">Student name:</label>
-        <input type="text" id="sname" name="sname"><br>
-        <label for="grade">Student Grade:</label>
-        <input type="text" id="grade" name="grade">
-    </form>
-    <form class="studentfour">
-        <label for="sname">Student name:</label>
-        <input type="text" id="sname" name="sname"><br>
-        <label for="grade">Student Grade:</label>
-        <input type="text" id="grade" name="grade">
-    </form>
     <br>
     <p>The above student(s) has/have my permission to participate in the following Blue Ridge Academy enrichment activities,
     field trips, testing administration, clubs, classes, graduation or program during the 2021-2022 school year.</p>
