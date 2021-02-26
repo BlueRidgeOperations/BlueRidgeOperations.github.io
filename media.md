@@ -39,12 +39,6 @@
             padding-right: 5%;
             padding-bottom: 3%;
         }
-
-        ul {
-            list-style-type: none;
-            font-family: Calibri, sans-serif; 
-        }
-
                  *,
         :before,
         :after {
@@ -117,7 +111,8 @@ button:hover span:after {
   margin-bottom: 12px;
   margin-left: 3%;
   cursor: pointer;
-  font-size: 22px;
+    font-family: Calibri, sans-serif;
+    font-size: 100%; 
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
