@@ -134,7 +134,7 @@ button:hover span:after {
 <body>
 <div id="content">
 <h1>Please review and sign the Parent Student Handbook below</h1>
-<div id="adobe-dc-view" style="height: 800px; width: 800px;"></div>
+<div id="adobe-dc-view" style="height: 800px; max-width: 800px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function () {
