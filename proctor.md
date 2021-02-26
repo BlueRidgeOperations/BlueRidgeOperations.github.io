@@ -37,12 +37,14 @@
         }
 
         h1 {
-            color: black;
+            color: black; 
             font-family: Calibri, sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            text-decoration: none;
-            font-size: 11pt;
+            font-style: normal; 
+            font-weight: bold; 
+            text-decoration: none; 
+            font-size: 100%;
+            text-align: center;
+            padding-top: 12px;
         }
 
 
