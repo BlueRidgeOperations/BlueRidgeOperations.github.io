@@ -215,9 +215,8 @@ tr {
 }
 
 td {
-       max-width: 100%;
-    border-color: #FCFFFF; 
-    background-color: #FCFFFF;     
+    max-width: 100%;
+    border: none;     
 }
 
 </style>
