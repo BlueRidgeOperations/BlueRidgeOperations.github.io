@@ -153,7 +153,7 @@
             justify-content: center;
             align-items: center;
             height: 100%;
-            width: 90%;
+            width: 95%;
             background-color: #FCFFFF;
             Margin: 0 auto;
             padding-top: 0%;

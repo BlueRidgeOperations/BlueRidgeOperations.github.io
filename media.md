@@ -31,7 +31,7 @@
         #content {
             justify-content: center;
             align-items: center;
-            width: 90%;
+            width: 95%;
             background-color: #FCFFFF;
             Margin: 0 auto;
             padding-top: 0%;
@@ -110,43 +110,35 @@ button:hover span:after {
             margin-bottom: 0px;
             max-width: 100%;
             }
-
-            /* The container */
 .container {
   display: block;
   position: relative;
-  padding-left:5%;
+  padding-left: 35px;
   margin-bottom: 12px;
+  margin-left: 3%;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin-left: 10%;
-  border: 1px;
 }
 
-/* Hide the browser's default checkbox */
+/* Hide the browser's default radio button */
 .container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 0;
-  width: 0;
-  
-  
 }
-
-/* Create a custom checkbox */
+/* Create a custom radio button */
 .checkmark {
   position: absolute;
   top: 0;
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #CCCCCC;
-  border: 1px;
+  background-color: #eee;
+  border-radius: 50%;
 }
 
 /* On mouse-over, add a grey background color */
@@ -154,34 +146,31 @@ button:hover span:after {
   background-color: #ccc;
 }
 
-/* When the checkbox is checked, add a blue background */
+/* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
   background-color: #141D34;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
+/* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
+/* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
+/* Style the indicator (dot/circle) */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: black;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
 }
 
 input {
@@ -287,12 +276,13 @@ of education programs through the use of mass media, displays, brochures, websit
     relate to or arise out of any use of these Recordings as specified above.</p>
 <br>
 <p>I have read and understand the release, and I agree to accept its provisions</p>
+<br>
 <label class="container">Yes
-    <input type="radio" id="box">
+    <input type="radio" checked="checked" name="radio">
     <span class="checkmark"></span>
 </label>
 <label class="container">No
-    <input type="radio" id="box">
+    <input type="radio" name="radio">
     <span class="checkmark"></span>
 </label>
 <br>
