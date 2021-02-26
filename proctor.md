@@ -192,14 +192,12 @@
 
 <body>
     <div id="content">
-    <h1 style="text-align: center;">Proctoring Agreement for A-G Coursework</h2>
+    <h1 style="text-align: center;">Proctoring Agreement for A-G Coursework</h1>
                <p style="text-align: center;">To be signed by the
-            Student&#39;s Learning Coach</p>
-
-        <p>This signed form must be filed in Pathways by
+            Student&#39;s Learning Coach
+        <br>This signed form must be filed in Pathways by
             the end of LP1.
             </p>
-            <br><br />
             <br>
             <form class="form-inline">
                 <label for="fname">Student name:</label>
