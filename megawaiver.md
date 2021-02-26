@@ -253,7 +253,7 @@ button:hover span:after {
         <input type="text" id="grade" name="grade">
     </form>
     <br>
-    <p>The above student(s) has/have my permission to participate in the following Blue Ridge Academy enrichment activities,
+    <p>The above student has/have my permission to participate in the following Blue Ridge Academy enrichment activities,
     field trips, testing administration, clubs, classes, graduation or program during the 2021-2022 school year.</p>
     <br>
     <form class="actone">
