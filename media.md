@@ -191,19 +191,20 @@ label {
 table {
     max-width: 100%;
     border: none !important;
-    background-color: #FCFFFF;
+    background-color: #FCFFFF !important;
     
 } 
 tr {
       max-width: 100%;
     border: none !important;
-    background-color: #FCFFFF; 
+    background-color: #FCFFFF !important; 
     border: none;
 }
 
 td {
     max-width: 100%;
-    border: none !important ;     
+    border: none !important ;   
+    background-color: #FCFFFF !important;   
 }
 
 </style>
