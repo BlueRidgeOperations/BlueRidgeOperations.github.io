@@ -198,7 +198,7 @@ tr {
       max-width: 100%;
     border: none !important;
     background-color: #FCFFFF !important; 
-    border: none;
+    
 }
 
 td {
