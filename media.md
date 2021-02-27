@@ -132,7 +132,7 @@ button:hover span:after {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #ccc;
   border-radius: 50%;
 }
 
