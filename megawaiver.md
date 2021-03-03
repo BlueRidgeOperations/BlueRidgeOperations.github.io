@@ -332,6 +332,10 @@ button:hover span:after {
     </section>
     <p>Authorized Signature of Parent/Guardian</p>
     <br>
+        <form class="actfour">
+        <label for="aname">Date:</label>
+        <input type="text" id="aname" name="aname"><br>
+        </form>
     <div id="dl"><button id="cmd" onclick="window.print();">Download</button></div>
 
     <script>
