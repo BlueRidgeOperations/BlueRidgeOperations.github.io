@@ -121,20 +121,11 @@ button:hover span:after {
 
 /* Hide the browser's default radio button */
 .container input {
-  position: absolute;
-  opacity: 0;
+  position: left;
+  opacity: 100;
   cursor: pointer;
 }
-/* Create a custom radio button */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #ccc;
-  border-radius: 50%;
-}
+
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
