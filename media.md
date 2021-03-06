@@ -121,14 +121,12 @@ button:hover span:after {
 
 /* Hide the browser's default radio button */
 .container input {
-   display: block;
-   justify-content: left; 
-  position: relative;
-  margin-right: 25%;
-  opacity: 100;
-  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;  
 }
-
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
