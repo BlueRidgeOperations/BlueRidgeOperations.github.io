@@ -121,7 +121,10 @@ button:hover span:after {
 
 /* Hide the browser's default radio button */
 .container input {
-  position: left;
+   display: block;
+   justify-content: left; 
+  position: relative;
+  margin-right: 25%;
   opacity: 100;
   cursor: pointer;
 }
