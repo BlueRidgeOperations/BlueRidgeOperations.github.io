@@ -332,6 +332,10 @@ button:hover span:after {
     </section>
     <p>Authorized Signature of Parent/Guardian</p>
     <br>
+    <form>
+        <form class="studentone">
+        <label for="sname">Student name:</label>
+        <input type="text" id="sname" name="sname"><br>
         <form class="actfour">
         <label for="aname">Date:</label>
         <input type="text" id="aname" name="aname"><br>
