@@ -334,7 +334,7 @@ button:hover span:after {
     <br>
     <form>
         <form class="studentone">
-        <label for="sname">Student name:</label>
+        <label for="sname">Parent name:</label>
         <input type="text" id="sname" name="sname"><br>
         <form class="actfour">
         <label for="aname">Date:</label>
@@ -796,6 +796,6 @@ button:hover span:after {
             showPointsToggle.classList.toggle('toggle');
         });
     </script>
-    </body>
+   
 
 
