@@ -262,7 +262,7 @@ button:hover span:after {
                 <td><input id="name" type="text"></td>
             </tr>
             <tr>
-                <td><label for="name">Printed Name and Relationship to Student:</label></td>
+                <td><label for="name">Printed Full Legal Name and Relationship to Student:</label></td>
                 <td><input id="name" type="text"></td>
             </tr>
         </tbody>

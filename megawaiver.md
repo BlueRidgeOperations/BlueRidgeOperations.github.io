@@ -334,7 +334,7 @@ button:hover span:after {
     <br>
     <form>
         <form class="studentone">
-        <label for="sname">Parent name:</label>
+        <label for="sname">Parent name(Please print full legal name):</label>
         <input type="text" id="sname" name="sname"><br>
         <form class="actfour">
         <label for="aname">Date:</label>

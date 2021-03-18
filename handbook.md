@@ -184,7 +184,7 @@ button:hover span:after {
     </section>
     <p>Parent Signature</p>
     <form class="student">
-        <label for="sname">Parent/Guardian Name:</label>
+        <label for="sname">Parent/Guardian Name  (Please print full legal name):</label>
         <input type="text" id="sname" name="sname"><br>
         <label for="date">Date:</label>
         <input type="text" id="date" name="date">

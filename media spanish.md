@@ -276,7 +276,7 @@ border: none !important ;
         <table>
             <tbody>
                 <tr>
-                    <td><label for="name">Nombre del padre/tutor:</label></td>
+                    <td><label for="name">Nombre del padre/tutor (Ingrese el nombre legal completo):</label></td>
                     <td><input id="name" type="text"></td>
                 </tr>
                 <tr>

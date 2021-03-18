@@ -287,7 +287,7 @@ of education programs through the use of mass media, displays, brochures, websit
         <table>
             <tbody>
                 <tr>
-                    <td><label for="name">Parent/Guardian Name:</label></td>
+                    <td><label for="name">Parent/Guardian Name  (Please print full legal name):</label></td>
                     <td><input id="name" type="text"></td>
                 </tr>
                 <tr>
